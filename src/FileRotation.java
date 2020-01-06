@@ -6,7 +6,7 @@ public class FileRotation {
     private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) throws Exception {
-        String pathFile = "C://COURSE//dz6//src//big.txt";
+        String pathFile = "big.txt";
 
 // RandomAccessFile работает с файлом как с большим массивом байтов.
 // Он использует курсор с помощью которого можно переместить указатель файла в определенную позицию.
